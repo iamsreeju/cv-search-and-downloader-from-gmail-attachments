@@ -1,4 +1,4 @@
-h1. CV downloader for pdf, doc and docx attacthments from Gmail account
+h1. CV downloader for pdf, doc and docx attachments from Gmail account
 
 Uses Rails 3, Ruby 2.0, MongoDB, Basic Bootstrap Layout, jQuery, Mustache.js etc.
 
