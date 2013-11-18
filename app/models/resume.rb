@@ -158,15 +158,14 @@ class Resume
 			end
 
 			resp[:finished] = true
-			resp[:percentage] = 100
 			resp[:messages] << "Up to date!"
 			resp[:messages] << "Total " + site_variable.mails_count.to_s + " mails loaded yet!"
 			resp[:status] = true
 		else
-			# Account failed to authorize
-			resp[:percentage] = 100
+			# Account failed to authorize			
 			resp[:messages] << "Failed to authorize! Please make sure with email & password!"
 		end
+		resp[:percentage] = 100
 		resp
   	end
 

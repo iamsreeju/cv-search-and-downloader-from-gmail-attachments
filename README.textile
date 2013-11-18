@@ -1,0 +1,22 @@
+h1. Resume downloader for pdf, doc & docx attactments from Gmail
+
+Uses Rails 3, Ruby 2.0, MongoDB, Basic Bootstrap Layout, jQuery, Mustache.js etc.
+
+h2. Requirements
+
+This application requires:
+
+* Ruby version 2.0.0
+* Rails version 3.2.12
+
+h2. Database
+
+This application uses MongoDB.
+
+h2. Development
+
+* Template Engine: ERB
+* Front-end Framework: Twitter Bootstrap (Sass)
+* Gems: gmail, mongo, mongo_mapper
+* Packages: catdoc, pdftotext and docx2txt - to read pdf, doc and docx files
+			tar, zip and rar - to extract compressed attachments
